@@ -78,15 +78,17 @@ div {
     color: #ccd7ed;
 }
 
-.basicInfo h4 {
+.basicInfo role {
+    margin: 24px 0px 46px 0px;
+}
+
+.basicInfo h4, .basicInfo h5 {
     font-size: 24px;
-    margin-top: 18px;
-    color: #bfcadf
+    color: #bfcadf;
 }
 
 .basicInfo p {
     font-size: 16px;
-    margin-top: 18px;
     color: #8598b7;
 }
 
@@ -141,6 +143,11 @@ label {
     transition: transform 0.3s ease;
 }
 
+.nav ul li a i.fas,
+.my-info div i.fas {
+    width: 22px;
+}
+
 .my-info {
     flex: 1;
     overflow-y: scroll;
@@ -186,7 +193,7 @@ ul.activities {
     list-style-type: square;
 }
 
-.skills div {
+.skillsColumn div {
     display: flex;
     column-gap: 20px;
     flex-wrap: wrap;
